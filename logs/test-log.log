@@ -1,0 +1,63 @@
+2025-07-28 20:06:29 INFO  Tests:21 - Test openPage started
+2025-07-28 20:06:31 INFO  Tests:25 - Test openPage completed
+2025-07-28 20:28:04 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:28:28 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:29:18 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:29:58 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:30:33 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:31:38 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:31:58 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:32:01 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:48:03 INFO  Tests:32 - Test searchHotel running
+2025-07-28 20:48:06 INFO  Tests:43 - Test searchHotel completed
+2025-08-02 21:01:31 INFO  Tests:24 - searchHotelTest start
+2025-08-02 21:01:31 INFO  Tests:26 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:05:19 INFO  Tests:25 - searchHotelTest start
+2025-08-02 21:05:19 INFO  Tests:27 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:08:19 INFO  Tests:25 - searchHotelTest start
+2025-08-02 21:08:19 INFO  Tests:27 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:12:34 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:12:34 INFO  Tests:29 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:14:52 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:14:52 INFO  Tests:29 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:14:52 INFO  Tests:31 - hotelSearchPage.setDates started
+2025-08-02 21:14:52 INFO  Tests:33 - hotelSearchPage.setTravelers started
+2025-08-02 21:18:38 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:18:38 INFO  Tests:29 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:18:38 INFO  Tests:31 - hotelSearchPage.setDates started
+2025-08-02 21:18:39 INFO  Tests:33 - hotelSearchPage.setTravelers started
+2025-08-02 21:21:42 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:21:42 INFO  Tests:29 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:21:42 INFO  Tests:31 - hotelSearchPage.setDates started
+2025-08-02 21:21:42 INFO  Tests:33 - hotelSearchPage.setTravelers started
+2025-08-02 21:29:51 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:29:52 INFO  Tests:29 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:29:54 INFO  Tests:31 - hotelSearchPage.setDates started
+2025-08-02 21:29:54 INFO  Tests:33 - hotelSearchPage.setTravelers started
+2025-08-02 21:31:46 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:31:46 INFO  Tests:29 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:33:28 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:33:28 INFO  Tests:29 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:35:06 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:35:06 INFO  Tests:30 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:36:11 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:36:11 INFO  Tests:30 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:38:47 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:38:47 INFO  Tests:30 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:38:51 INFO  Tests:32 - dfasdfadasda
+2025-08-02 21:38:51 INFO  Tests:34 - hotelSearchPage.setDates started
+2025-08-02 21:38:51 INFO  Tests:37 - hotelSearchPage.setTravelers started
+2025-08-02 21:40:23 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:40:23 INFO  Tests:30 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:40:27 INFO  Tests:34 - hotelSearchPage.setDates started
+2025-08-02 21:40:27 INFO  Tests:37 - hotelSearchPage.setTravelers started
+2025-08-02 21:43:31 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:43:31 INFO  Tests:30 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:43:35 INFO  Tests:34 - hotelSearchPage.setDates started
+2025-08-02 21:43:35 INFO  Tests:37 - hotelSearchPage.setTravelers started
+2025-08-02 21:44:11 INFO  Tests:27 - searchHotelTest start
+2025-08-02 21:44:11 INFO  Tests:30 -  hotelSearchPage.setCity(Dubai); func started
+2025-08-02 21:44:15 INFO  Tests:34 - hotelSearchPage.setDates started
+2025-08-02 21:44:16 INFO  Tests:37 - hotelSearchPage.setTravelers started
+2025-08-02 21:44:17 INFO  Tests:39 - hotelSearchPage.searchButtonClick started
+2025-08-02 21:44:18 INFO  Tests:42 - searchHotelTest end
