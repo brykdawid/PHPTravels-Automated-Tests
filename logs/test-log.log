@@ -157,3 +157,56 @@
 2025-08-03 17:59:30 INFO  HotelSeachResultsPage:138 - Selected random title: This sophisticated beachfront property with its iconic exterior, features 180 luxury serviced and self-catering apartments. The spacious apartments…
 2025-08-03 17:59:30 INFO  HotelSeachResultsPage:140 - Selected hotel raiting: 5.70 / 18
 2025-08-03 17:59:31 INFO  Tests:59 - searchResultTest ended
+2025-08-03 20:07:17 INFO  Tests:66 - registerUser started
+2025-08-03 20:07:17 INFO  UserRegisterPage:46 - userRegister started
+2025-08-03 20:07:17 INFO  UserRegisterPage:47 - Sending firstName: Dawid
+2025-08-03 20:07:17 INFO  UserRegisterPage:49 - Sending lastName: Bryk
+2025-08-03 20:07:18 INFO  UserRegisterPage:51 - Sending emailAddress: bryktest@gmail.com
+2025-08-03 20:07:18 INFO  UserRegisterPage:53 - Sending phoneNumber: 615625716
+2025-08-03 20:07:18 INFO  UserRegisterPage:55 - Sending password: qwerty123
+2025-08-03 20:07:18 INFO  Tests:71 - registerUser completed
+2025-08-03 20:07:33 INFO  Tests:66 - registerUser started
+2025-08-03 20:07:33 INFO  UserRegisterPage:46 - userRegister started
+2025-08-03 20:07:33 INFO  UserRegisterPage:47 - Sending firstName: Dawid
+2025-08-03 20:07:33 INFO  UserRegisterPage:49 - Sending lastName: Bryk
+2025-08-03 20:07:33 INFO  UserRegisterPage:51 - Sending emailAddress: bryktest@gmail.com
+2025-08-03 20:07:33 INFO  UserRegisterPage:53 - Sending phoneNumber: 615625716
+2025-08-03 20:07:33 INFO  UserRegisterPage:55 - Sending password: qwerty123
+2025-08-03 20:07:33 INFO  Tests:71 - registerUser completed
+2025-08-03 20:25:43 INFO  Tests:87 - loginUser started
+2025-08-03 20:26:51 INFO  Tests:87 - loginUser started
+2025-08-03 20:26:53 INFO  UserLoginPage:33 - Provided email and password: bryktest@gmail.com qwerty123
+2025-08-03 20:26:53 INFO  Tests:93 - loginUser completed
+2025-08-03 20:28:30 INFO  Tests:87 - loginUser started
+2025-08-03 20:28:32 INFO  UserLoginPage:38 - Provided email and password: bryktest@gmail.com qwerty123
+2025-08-03 20:28:32 INFO  Tests:93 - loginUser completed
+2025-08-03 20:28:44 INFO  Tests:76 - registerUser started
+2025-08-03 20:28:44 INFO  UserRegisterPage:46 - userRegister started
+2025-08-03 20:28:44 INFO  UserRegisterPage:47 - Sending firstName: Dawid
+2025-08-03 20:28:44 INFO  UserRegisterPage:49 - Sending lastName: Bryk
+2025-08-03 20:28:44 INFO  UserRegisterPage:51 - Sending emailAddress: bryktest@gmail.com
+2025-08-03 20:28:45 INFO  UserRegisterPage:53 - Sending phoneNumber: 615625716
+2025-08-03 20:28:45 INFO  UserRegisterPage:55 - Sending password: qwerty123
+2025-08-03 20:28:45 INFO  Tests:81 - registerUser completed
+2025-08-03 20:29:00 INFO  Tests:87 - loginUser started
+2025-08-03 20:29:02 INFO  UserLoginPage:38 - Provided email and password: bryktest@gmail.com qwerty123
+2025-08-03 20:29:02 INFO  Tests:93 - loginUser completed
+2025-08-03 20:29:50 INFO  Tests:76 - registerUser started
+2025-08-03 20:29:50 INFO  UserRegisterPage:46 - userRegister started
+2025-08-03 20:29:50 INFO  UserRegisterPage:47 - Sending firstName: Dawid
+2025-08-03 20:29:50 INFO  UserRegisterPage:49 - Sending lastName: Bryk
+2025-08-03 20:29:50 INFO  UserRegisterPage:51 - Sending emailAddress: testtest@gmail.com
+2025-08-03 20:29:50 INFO  UserRegisterPage:53 - Sending phoneNumber: 615625716
+2025-08-03 20:29:51 INFO  UserRegisterPage:55 - Sending password: qwerty123
+2025-08-03 20:29:51 INFO  Tests:81 - registerUser completed
+2025-08-03 20:30:04 INFO  Tests:76 - registerUser started
+2025-08-03 20:30:04 INFO  UserRegisterPage:46 - userRegister started
+2025-08-03 20:30:04 INFO  UserRegisterPage:47 - Sending firstName: Dawid
+2025-08-03 20:30:04 INFO  UserRegisterPage:49 - Sending lastName: Bryk
+2025-08-03 20:30:04 INFO  UserRegisterPage:51 - Sending emailAddress: khgaskjhdga@gmail.com
+2025-08-03 20:30:04 INFO  UserRegisterPage:53 - Sending phoneNumber: 615625716
+2025-08-03 20:30:05 INFO  UserRegisterPage:55 - Sending password: qwerty123
+2025-08-03 20:30:05 INFO  Tests:81 - registerUser completed
+2025-08-03 20:30:12 INFO  Tests:87 - loginUser started
+2025-08-03 20:30:14 INFO  UserLoginPage:38 - Provided email and password: khgaskjhdga@gmail.com qwerty123
+2025-08-03 20:30:14 INFO  Tests:93 - loginUser completed
