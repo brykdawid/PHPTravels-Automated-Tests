@@ -61,3 +61,99 @@
 2025-08-02 21:44:16 INFO  Tests:37 - hotelSearchPage.setTravelers started
 2025-08-02 21:44:17 INFO  Tests:39 - hotelSearchPage.searchButtonClick started
 2025-08-02 21:44:18 INFO  Tests:42 - searchHotelTest end
+2025-08-03 17:17:44 INFO  Tests:50 - searchResultTest started
+2025-08-03 17:17:44 INFO  HotelSeachResultsPage:87 - setFiltersOptions function started
+2025-08-03 17:17:44 INFO  HotelSeachResultsPage:88 - Selecting random star grade
+2025-08-03 17:18:33 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:18:33 INFO  HotelSeachResultsPage:87 - setFiltersOptions function started
+2025-08-03 17:18:33 INFO  HotelSeachResultsPage:88 - Selecting random star grade
+2025-08-03 17:18:33 INFO  HotelSeachResultsPage:92 - selected random grade: [[ChromeDriver: chrome on windows (01a27e33d357ac41d057479a5ee48397)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:18:34 INFO  HotelSeachResultsPage:99 - Selecting random property type
+2025-08-03 17:29:11 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:29:11 INFO  HotelSeachResultsPage:87 - setFiltersOptions function started
+2025-08-03 17:29:11 INFO  HotelSeachResultsPage:88 - Selecting random star grade
+2025-08-03 17:29:11 INFO  HotelSeachResultsPage:92 - selected random grade: [[ChromeDriver: chrome on windows (248f3bd3007e7316c14bb81f17d677b4)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:29:12 INFO  HotelSeachResultsPage:99 - Selecting random property type
+2025-08-03 17:36:46 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:36:46 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:36:46 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:36:46 INFO  HotelSeachResultsPage:89 - selected random grade: [[ChromeDriver: chrome on windows (1205480404c3d09cdbce6db1eb421a65)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:36:47 INFO  HotelSeachResultsPage:96 - Selecting random property type
+2025-08-03 17:36:47 INFO  HotelSeachResultsPage:100 - Selected property type number: [[ChromeDriver: chrome on windows (1205480404c3d09cdbce6db1eb421a65)] -> xpath: //input[@name='type[]']]
+2025-08-03 17:37:21 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:37:21 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:37:21 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:37:46 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:37:46 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:37:46 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:37:46 INFO  HotelSeachResultsPage:89 - selected random grade: [[ChromeDriver: chrome on windows (705a0da9b5867fd0172d20e3171aff32)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:37:47 INFO  HotelSeachResultsPage:96 - Selecting random property type
+2025-08-03 17:37:47 INFO  HotelSeachResultsPage:100 - Selected property type number: [[ChromeDriver: chrome on windows (705a0da9b5867fd0172d20e3171aff32)] -> xpath: //input[@name='type[]']]
+2025-08-03 17:41:15 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:41:15 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:41:15 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:41:15 INFO  HotelSeachResultsPage:89 - selected random grade: [[ChromeDriver: chrome on windows (783f40fa0151a12233e7f873ae957fb0)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:41:16 INFO  HotelSeachResultsPage:96 - Selecting random property type
+2025-08-03 17:41:16 INFO  HotelSeachResultsPage:100 - Selected property type number: [[ChromeDriver: chrome on windows (783f40fa0151a12233e7f873ae957fb0)] -> xpath: //label[@class='css-label go-left']]
+2025-08-03 17:41:18 INFO  HotelSeachResultsPage:108 - Selecting random amenities
+2025-08-03 17:42:01 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:42:01 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:42:01 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:42:01 INFO  HotelSeachResultsPage:89 - selected random grade: [[ChromeDriver: chrome on windows (cbf564cdfd5ac7180bd8ec1fa715a23b)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:42:02 INFO  HotelSeachResultsPage:96 - Selecting random property type
+2025-08-03 17:42:02 INFO  HotelSeachResultsPage:100 - Selected property type number: [[ChromeDriver: chrome on windows (cbf564cdfd5ac7180bd8ec1fa715a23b)] -> xpath: //label[@class='css-label go-left']]
+2025-08-03 17:42:04 INFO  HotelSeachResultsPage:108 - Selecting random amenities
+2025-08-03 17:44:11 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:44:11 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:44:11 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:44:11 INFO  HotelSeachResultsPage:89 - selected random grade: [[ChromeDriver: chrome on windows (c664192bdc2a44562667c5d5517251a6)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:44:12 INFO  HotelSeachResultsPage:96 - Selecting random property type
+2025-08-03 17:44:12 INFO  HotelSeachResultsPage:100 - Selected property type number: [[ChromeDriver: chrome on windows (c664192bdc2a44562667c5d5517251a6)] -> xpath: //input[@id='Hotel']]
+2025-08-03 17:44:58 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:44:58 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:44:58 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:44:58 INFO  HotelSeachResultsPage:89 - selected random grade: [[ChromeDriver: chrome on windows (5c0c966944f67349ba6b2a4d5a2fdcce)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:45:02 INFO  HotelSeachResultsPage:127 - Selecting random search result
+2025-08-03 17:45:02 INFO  HotelSeachResultsPage:131 - Selected random title: Oasis Beach Tower
+2025-08-03 17:45:02 INFO  HotelSeachResultsPage:133 - Selected random title: dubai
+2025-08-03 17:45:02 INFO  HotelSeachResultsPage:135 - Selected random title: This sophisticated beachfront property with its iconic exterior, features 180 luxury serviced and self-catering apartments. The spacious apartments…
+2025-08-03 17:45:03 INFO  Tests:59 - searchResultTest ended
+2025-08-03 17:53:50 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:53:50 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:53:50 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:53:50 INFO  HotelSeachResultsPage:89 - selected random grade: [[ChromeDriver: chrome on windows (d418af15416817006603a03eee3a6408)] -> xpath: //div[@class='rating']//div[@class='go-right']]
+2025-08-03 17:53:53 WARN  HotelSeachResultsPage:141 - Results are empty
+2025-08-03 17:53:53 INFO  Tests:59 - searchResultTest ended
+2025-08-03 17:54:46 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:54:46 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:54:46 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:54:46 INFO  HotelSeachResultsPage:89 - selected random grade: 3
+2025-08-03 17:54:50 INFO  HotelSeachResultsPage:127 - Selecting random search result
+2025-08-03 17:54:50 INFO  HotelSeachResultsPage:131 - Selected random title: Oasis Beach Tower
+2025-08-03 17:54:50 INFO  HotelSeachResultsPage:133 - Selected random title: dubai
+2025-08-03 17:54:50 INFO  HotelSeachResultsPage:135 - Selected random title: This sophisticated beachfront property with its iconic exterior, features 180 luxury serviced and self-catering apartments. The spacious apartments…
+2025-08-03 17:54:51 INFO  Tests:59 - searchResultTest ended
+2025-08-03 17:56:32 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:56:32 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:56:32 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:56:32 INFO  HotelSeachResultsPage:89 - selected random grade: 2
+2025-08-03 17:56:35 INFO  HotelSeachResultsPage:130 - Selecting random search result
+2025-08-03 17:56:35 INFO  HotelSeachResultsPage:134 - Selected random title: Hyatt Regency Perth
+2025-08-03 17:56:35 INFO  HotelSeachResultsPage:136 - Selected random title: dubai
+2025-08-03 17:56:35 INFO  HotelSeachResultsPage:138 - Selected random title: This 5-star luxury hotel offers a 25-metre heated pool and a tennis court minutes from the banks of Swan River and Perth’s city centre. A free…
+2025-08-03 17:59:16 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:59:16 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:59:16 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:59:16 INFO  HotelSeachResultsPage:89 - selected random grade: 0
+2025-08-03 17:59:20 WARN  HotelSeachResultsPage:146 - Results are empty
+2025-08-03 17:59:20 INFO  Tests:59 - searchResultTest ended
+2025-08-03 17:59:26 INFO  Tests:51 - searchResultTest started
+2025-08-03 17:59:26 INFO  HotelSeachResultsPage:84 - setFiltersOptions function started
+2025-08-03 17:59:26 INFO  HotelSeachResultsPage:85 - Selecting random star grade
+2025-08-03 17:59:26 INFO  HotelSeachResultsPage:89 - selected random grade: 3
+2025-08-03 17:59:29 INFO  HotelSeachResultsPage:130 - Selecting random search result
+2025-08-03 17:59:29 INFO  HotelSeachResultsPage:134 - Selected random title: Oasis Beach Tower
+2025-08-03 17:59:29 INFO  HotelSeachResultsPage:136 - Selected random title: dubai
+2025-08-03 17:59:30 INFO  HotelSeachResultsPage:138 - Selected random title: This sophisticated beachfront property with its iconic exterior, features 180 luxury serviced and self-catering apartments. The spacious apartments…
+2025-08-03 17:59:30 INFO  HotelSeachResultsPage:140 - Selected hotel raiting: 5.70 / 18
+2025-08-03 17:59:31 INFO  Tests:59 - searchResultTest ended

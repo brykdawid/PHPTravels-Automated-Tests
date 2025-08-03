@@ -1,5 +1,6 @@
 package PHPTravels.tests;
 
+import PHPTravels.pages.HotelSeachResultsPage;
 import PHPTravels.pages.HotelSearchPage;
 import PHPTravels.tests.TestMethods;
 import org.apache.logging.log4j.LogManager;
@@ -15,6 +16,7 @@ import static org.testng.Assert.assertEquals;
 public class Tests extends TestMethods {
     //Data
     String websiteURL = "http://www.kurs-selenium.pl/demo/";
+    String searchResultsURL = "http://www.kurs-selenium.pl/demo/hotels/search/united-arab-emirates/dubai/21-08-2025/29-08-2025/2/0";
     //Logger Creation
     private static final Logger logger = LogManager.getLogger();
 
@@ -42,6 +44,20 @@ public class Tests extends TestMethods {
         logger.info("searchHotelTest end");
     }
 
+
+    @Test
+    public  void searchResultTest() throws InterruptedException {
+        driver.get(searchResultsURL);
+        logger.info("searchResultTest started");
+
+
+        HotelSeachResultsPage hotelSeachResultsPage = new HotelSeachResultsPage(driver);
+
+        hotelSeachResultsPage.setFiltersOptions();
+        hotelSeachResultsPage.getResults();
+
+        logger.info("searchResultTest ended");
+    }
 
 
 }
