@@ -26,7 +26,7 @@ public class TestMethods {
         System.out.println("BeforeMethod completed");
     }
 
-
+/*
     @AfterMethod
     public void afterMethod(){
         System.out.println("AfterMethod running");
@@ -34,5 +34,7 @@ public class TestMethods {
            driver.quit();
        }
     }
+
+ */
 
 }

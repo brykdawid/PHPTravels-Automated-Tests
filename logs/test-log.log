@@ -210,3 +210,29 @@
 2025-08-03 20:30:12 INFO  Tests:87 - loginUser started
 2025-08-03 20:30:14 INFO  UserLoginPage:38 - Provided email and password: khgaskjhdga@gmail.com qwerty123
 2025-08-03 20:30:14 INFO  Tests:93 - loginUser completed
+2025-08-04 18:56:22 INFO  Tests:91 -  hotelSearchPage.setCity(); func started - blank space left
+2025-08-04 18:56:22 INFO  Tests:93 - hotelSearchPage.setDates started
+2025-08-04 18:56:22 INFO  Tests:96 - hotelSearchPage.setTravelers started
+2025-08-04 18:56:23 INFO  Tests:98 - hotelSearchPage.searchButtonClick started
+2025-08-04 18:56:24 INFO  Tests:101 - searchHotelTest end
+2025-08-04 19:59:30 INFO  Tests:120 - homePageElements() started
+2025-08-04 19:59:31 INFO  Tests:125 - homePageElements() completed
+2025-08-04 20:00:42 INFO  Tests:120 - homePageElements() started
+2025-08-04 20:00:42 INFO  HomePage:79 - funkcja 2
+2025-08-04 20:00:44 INFO  Tests:125 - homePageElements() completed
+2025-08-04 20:01:31 INFO  Tests:120 - homePageElements() started
+2025-08-04 20:01:31 INFO  HomePage:97 - funkcja 4
+2025-08-04 20:02:17 INFO  Tests:120 - homePageElements() started
+2025-08-04 20:02:17 INFO  HomePage:61 - funkcja 0
+2025-08-04 20:02:19 INFO  Tests:125 - homePageElements() completed
+2025-08-04 20:02:30 INFO  Tests:120 - homePageElements() started
+2025-08-04 20:02:30 INFO  HomePage:91 - funkcja 3
+2025-08-04 20:02:33 INFO  Tests:125 - homePageElements() completed
+2025-08-04 20:02:44 INFO  Tests:120 - homePageElements() started
+2025-08-04 20:02:44 INFO  HomePage:91 - funkcja 3
+2025-08-04 20:02:47 INFO  Tests:125 - homePageElements() completed
+2025-08-04 20:02:57 INFO  Tests:120 - homePageElements() started
+2025-08-04 20:02:57 INFO  HomePage:91 - funkcja 3
+2025-08-04 20:03:00 INFO  Tests:125 - homePageElements() completed
+2025-08-04 20:03:12 INFO  Tests:120 - homePageElements() started
+2025-08-04 20:03:12 INFO  HomePage:71 - funkcja 1

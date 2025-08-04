@@ -1,9 +1,6 @@
 package PHPTravels.tests;
 
-import PHPTravels.pages.HotelSeachResultsPage;
-import PHPTravels.pages.HotelSearchPage;
-import PHPTravels.pages.UserLoginPage;
-import PHPTravels.pages.UserRegisterPage;
+import PHPTravels.pages.*;
 import PHPTravels.tests.TestMethods;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -34,6 +31,31 @@ public class Tests extends TestMethods {
     private static final Logger logger = LogManager.getLogger();
 
 
+    //Register User test
+    @Test
+    public void registerUser(){
+        driver.get(userRegisterUrl);
+        logger.info("registerUser started");
+
+        UserRegisterPage userRegisterPage = new UserRegisterPage(driver);
+        userRegisterPage.userRegister(name, surname, phone, email, password);
+
+        logger.info("registerUser completed");
+
+    }
+    //Login User test
+    @Test
+    public void loginUser() throws InterruptedException {
+        logger.info("loginUser started");
+        driver.get(userLoginUrl);
+        UserLoginPage userLoginPage = new UserLoginPage(driver);
+
+        userLoginPage.userLogin(email, password);
+
+        logger.info("loginUser completed");
+    }
+
+    //searchHotel test
     @Test
     public void searchHotelTest () throws InterruptedException {
 
@@ -57,7 +79,28 @@ public class Tests extends TestMethods {
         logger.info("searchHotelTest end");
     }
 
+    //Empty city searchTest
+    @Test
+    public void emptyCityHotelSearchTest() throws InterruptedException {
+        driver.get(websiteURL);
 
+        HotelSearchPage hotelSearchPage = new HotelSearchPage(driver);
+        logger.info(" hotelSearchPage.setCity(); func started - blank space left");
+
+        logger.info("hotelSearchPage.setDates started");
+        hotelSearchPage.setDates("21/07/2022","28/07/2022");
+
+        logger.info("hotelSearchPage.setTravelers started");
+        hotelSearchPage.setTravelers(2,1);
+        logger.info("hotelSearchPage.searchButtonClick started");
+
+        hotelSearchPage.searchButtonClick();
+        logger.info("searchHotelTest end");
+
+
+    }
+
+    //Results tab test
     @Test
     public  void searchResultTest() throws InterruptedException {
         driver.get(searchResultsURL);
@@ -70,28 +113,18 @@ public class Tests extends TestMethods {
         logger.info("searchResultTest ended");
     }
 
+    //Home Page elements
     @Test
-    public void registerUser(){
-        driver.get(userRegisterUrl);
-        logger.info("registerUser started");
+    public void homePageElements() throws InterruptedException {
+        driver.get(websiteURL);
+        logger.info("homePageElements() started");
 
-        UserRegisterPage userRegisterPage = new UserRegisterPage(driver);
-        userRegisterPage.userRegister(name, surname, phone, email, password);
+        HomePage homePage = new HomePage(driver);
+        homePage.randomFunction();
 
-        logger.info("registerUser completed");
-
+        logger.info("homePageElements() completed");
     }
 
-    @Test
-    public void loginUser() throws InterruptedException {
-        logger.info("loginUser started");
-        driver.get(userLoginUrl);
-        UserLoginPage userLoginPage = new UserLoginPage(driver);
-
-        userLoginPage.userLogin(email, password);
-
-        logger.info("loginUser completed");
-    }
 
 
 }

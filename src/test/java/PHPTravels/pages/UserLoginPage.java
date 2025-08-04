@@ -35,7 +35,7 @@ public class UserLoginPage {
 
         loginBtn.click();
 
-        logger.info("Provided email and password: "+email +" " + pass);
+        logger.info("Provided email and password: {} {}", email, pass);
     }
 
 }
