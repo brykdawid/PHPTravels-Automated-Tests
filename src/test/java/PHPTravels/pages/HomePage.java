@@ -22,7 +22,7 @@ public class HomePage {
     private List<WebElement> homePageBlogs;
 
     //Home Page Featured Hotels
-    @FindBy(xpath = "//a[@class='loader wow animated']")
+    @FindBy(xpath = "//div[@class='owl-item']")
     private List<WebElement> featuredHotels;
 
     //Home Page Featured Flights - to do
@@ -45,66 +45,79 @@ public class HomePage {
     private WebElement specialOffer;
 
     //Home Screen View More Offers - special offer card
-    @FindBy(xpath = "//a[text()='View More Offers']")
+    @FindBy(xpath = "//a[@class='loader btn btn-primary btn-block p16']")
     private WebElement viewMoreOffersBtn;
+
+
 
 
     public HomePage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
 
-    public void randomFunction() throws InterruptedException {
-        Random random1 = new Random();
-        int randomFunc = random1.nextInt(5);
 
-        if (randomFunc == 0){
-            logger.info("funkcja 0");
-            Thread.sleep(1000);
-            Random random = new Random();
-            int randomBlog = random.nextInt(homePageBlogs.size());
-            WebElement selectedBlog = homePageBlogs.get(randomBlog);
-            selectedBlog.getLocation();
-            selectedBlog.click();
-            Thread.sleep(1000);
-        }
-        if (randomFunc == 1){
-            logger.info("funkcja 1");
-            Thread.sleep(1000);
-            Random random = new Random();
-            int randomFeaturedHotel = random.nextInt(featuredHotels.size());
-            WebElement selectedFeaturedHotel = featuredHotels.get(randomFeaturedHotel);
-            selectedFeaturedHotel.getLocation();
-            selectedFeaturedHotel.click();
-            Thread.sleep(1000);
-        }
-        if (randomFunc == 2){
-            logger.info("funkcja 2");
-            Thread.sleep(1000);
-            Random random = new Random();
-            int randomFeaturedTours = random.nextInt(featuredTours.size());
-            WebElement selectedFeatureTour = featuredTours.get(randomFeaturedTours);
-            selectedFeatureTour.getLocation();
-            selectedFeatureTour.click();
-            Thread.sleep(1000);
-        }
-        if (randomFunc == 3){
-            logger.info("funkcja 3");
-            Thread.sleep(1000);
-            Random random = new Random();
-            int randomFeaturedCars = random.nextInt(featuredCars.size());
-            WebElement selectedFeaturedCar = featuredCars.get(randomFeaturedCars);
-            selectedFeaturedCar.getLocation();
-            selectedFeaturedCar.click();
-            Thread.sleep(1000);
-        }
-        if (randomFunc == 4){
-            logger.info("funkcja 4");
-            Thread.sleep(1000);
-            specialOffer.getLocation();
-            specialOffer.getText();
-            viewMoreOffersBtn.click();
-            Thread.sleep(1000);
-        }
+    public void getBlog() throws InterruptedException {
+        logger.info("getBlog started");
+        Thread.sleep(1000);
+
+        Random random = new Random();
+        int randomBlog = random.nextInt(homePageBlogs.size());
+        WebElement selectedBlog = homePageBlogs.get(randomBlog);
+        logger.info("size of table: {}", homePageBlogs.size());
+        logger.info("selected blog number:{}", randomBlog);
+        selectedBlog.getLocation();
+        selectedBlog.click();
+        Thread.sleep(1000);
+    }
+
+    public void getFeaturedHotel() throws InterruptedException {
+        logger.info("getFeaturedHotel started");
+        Thread.sleep(1000);
+        Random random = new Random();
+        int randomFeaturedHotel = random.nextInt(featuredHotels.size());
+        WebElement selectedFeaturedHotel = featuredHotels.get(randomFeaturedHotel);
+        selectedFeaturedHotel.getLocation();
+        logger.info("size of table: {}", featuredHotels.size());
+        logger.info("selected blog number:{}", randomFeaturedHotel);
+        selectedFeaturedHotel.click();
+        Thread.sleep(1000);
+    }
+
+    public void getFeaturedTours() throws InterruptedException {
+        logger.info("getFeaturedTours started");
+        Thread.sleep(1000);
+        Random random = new Random();
+        int randomFeaturedTours = random.nextInt(featuredTours.size());
+        WebElement selectedFeatureTour = featuredTours.get(randomFeaturedTours);
+        logger.info("size of table: {}", featuredTours.size());
+        logger.info("selected blog number:{}", randomFeaturedTours);
+
+        selectedFeatureTour.getLocation();
+        bookNowFeaturedTours.get(randomFeaturedTours).click();
+        Thread.sleep(1000);
+    }
+
+    public void getFeaturedCars() throws InterruptedException {
+        logger.info("getFeaturedCars started");
+        Thread.sleep(1000);
+        Random random = new Random();
+        int randomFeaturedCars = random.nextInt(featuredCars.size());
+        WebElement selectedFeaturedCar = featuredCars.get(randomFeaturedCars);
+        logger.info("size of table: {}", featuredCars.size());
+        logger.info("selected blog number:{}", randomFeaturedCars);
+
+        selectedFeaturedCar.getLocation();
+        selectedFeaturedCar.click();
+        Thread.sleep(1000);
+    }
+
+    public void getSpecialOffer() throws InterruptedException {
+        logger.info("getSpecialOffer started");
+        Thread.sleep(1000);
+        specialOffer.getLocation();
+        specialOffer.getText();
+        viewMoreOffersBtn.click();
+        Thread.sleep(1000);
     }
 
 

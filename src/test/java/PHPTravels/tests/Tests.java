@@ -113,17 +113,66 @@ public class Tests extends TestMethods {
         logger.info("searchResultTest ended");
     }
 
-    //Home Page elements
+    //Home Page Blog
     @Test
-    public void homePageElements() throws InterruptedException {
+    public void getHomePageBlog() throws InterruptedException {
         driver.get(websiteURL);
-        logger.info("homePageElements() started");
+        logger.info("getHomePageBlog() started");
 
         HomePage homePage = new HomePage(driver);
-        homePage.randomFunction();
+        homePage.getBlog();
 
         logger.info("homePageElements() completed");
     }
+
+    //Home Page Featured Hotel - error java.lang.IllegalArgumentException: bound must be positive
+    @Test
+    public void getHomePageFeaturedHotel() throws InterruptedException {
+        driver.get(websiteURL);
+        logger.info("getHomePageFeaturedHotel() started");
+
+        HomePage homePage = new HomePage(driver);
+        homePage.getFeaturedHotel();
+
+        logger.info("getHomePageFeaturedHotel() completed");
+    }
+
+    //Home Page Featured Tours
+    @Test
+    public void getHomePageFeaturedTours() throws InterruptedException{
+        driver.get(websiteURL);
+        logger.info("getHomePageFeaturedTours() started");
+
+        HomePage homePage = new HomePage(driver);
+        homePage.getFeaturedTours();
+
+        logger.info("getHomePageFeaturedTours() completed");
+    }
+
+    //Home Page Featured Cars
+    @Test
+    public void getHomePageFeaturedCars() throws InterruptedException{
+        driver.get(websiteURL);
+        logger.info("getHomePageFeaturedCars() started");
+
+        HomePage homePage = new HomePage(driver);
+        homePage.getFeaturedCars();
+
+        logger.info("getHomePageFeaturedCars() completed");
+    }
+
+    //Home Page Special Offer
+    @Test
+    public void getHomePageSpecialOffer() throws InterruptedException{
+        driver.get(websiteURL);
+        logger.info("getHomePageSpecialOffer() started");
+
+        HomePage homePage = new HomePage(driver);
+        homePage.getSpecialOffer();
+
+        logger.info("getHomePageSpecialOffer() completed");
+    }
+
 
 
 

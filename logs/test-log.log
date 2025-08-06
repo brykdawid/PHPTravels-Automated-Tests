@@ -236,3 +236,48 @@
 2025-08-04 20:03:00 INFO  Tests:125 - homePageElements() completed
 2025-08-04 20:03:12 INFO  Tests:120 - homePageElements() started
 2025-08-04 20:03:12 INFO  HomePage:71 - funkcja 1
+2025-08-06 22:00:42 INFO  Tests:120 - getHomePageBlog() started
+2025-08-06 22:00:42 INFO  HomePage:58 - getBlog started
+2025-08-06 22:00:43 INFO  HomePage:64 - size of table: 3
+2025-08-06 22:00:43 INFO  HomePage:65 - selected blog number:[[ChromeDriver: chrome on windows (c280e7701ac3dfe9a826043d08f349d2)] -> xpath: //div[@class='col-md-4']//div[@class='probox']]
+2025-08-06 22:00:45 INFO  Tests:125 - homePageElements() completed
+2025-08-06 22:01:41 INFO  Tests:120 - getHomePageBlog() started
+2025-08-06 22:01:41 INFO  HomePage:58 - getBlog started
+2025-08-06 22:01:42 INFO  HomePage:64 - size of table: 3
+2025-08-06 22:01:42 INFO  HomePage:65 - selected blog number:1
+2025-08-06 22:01:44 INFO  Tests:125 - homePageElements() completed
+2025-08-06 22:01:57 INFO  Tests:120 - getHomePageBlog() started
+2025-08-06 22:01:57 INFO  HomePage:58 - getBlog started
+2025-08-06 22:01:58 INFO  HomePage:64 - size of table: 3
+2025-08-06 22:01:58 INFO  HomePage:65 - selected blog number:0
+2025-08-06 22:02:00 INFO  Tests:125 - homePageElements() completed
+2025-08-06 22:02:11 INFO  Tests:132 - getHomePageFeaturedHotel() started
+2025-08-06 22:02:11 INFO  HomePage:72 - getFeaturedHotel started
+2025-08-06 22:02:41 INFO  Tests:144 - getHomePageFeaturedTours() started
+2025-08-06 22:02:41 INFO  HomePage:85 - getFeaturedTours started
+2025-08-06 22:02:42 INFO  HomePage:90 - size of table: 8
+2025-08-06 22:02:42 INFO  HomePage:91 - selected blog number:5
+2025-08-06 22:02:43 INFO  Tests:149 - getHomePageFeaturedTours() completed
+2025-08-06 22:03:56 INFO  Tests:144 - getHomePageFeaturedTours() started
+2025-08-06 22:03:56 INFO  HomePage:85 - getFeaturedTours started
+2025-08-06 22:03:57 INFO  HomePage:90 - size of table: 8
+2025-08-06 22:03:57 INFO  HomePage:91 - selected blog number:2
+2025-08-06 22:04:00 INFO  Tests:149 - getHomePageFeaturedTours() completed
+2025-08-06 22:04:30 INFO  Tests:156 - getHomePageFeaturedCars() started
+2025-08-06 22:04:30 INFO  HomePage:99 - getFeaturedCars started
+2025-08-06 22:04:31 INFO  HomePage:104 - size of table: 4
+2025-08-06 22:04:31 INFO  HomePage:105 - selected blog number:0
+2025-08-06 22:04:34 INFO  Tests:161 - getHomePageFeaturedCars() completed
+2025-08-06 22:04:58 INFO  Tests:168 - getHomePageSpecialOffer() started
+2025-08-06 22:04:58 INFO  HomePage:113 - getSpecialOffer started
+2025-08-06 22:13:19 INFO  Tests:168 - getHomePageSpecialOffer() started
+2025-08-06 22:13:19 INFO  HomePage:115 - getSpecialOffer started
+2025-08-06 22:13:22 INFO  Tests:173 - getHomePageSpecialOffer() completed
+2025-08-06 22:18:16 INFO  Tests:132 - getHomePageFeaturedHotel() started
+2025-08-06 22:18:16 INFO  HomePage:74 - getFeaturedHotel started
+2025-08-06 22:20:49 INFO  Tests:132 - getHomePageFeaturedHotel() started
+2025-08-06 22:20:49 INFO  HomePage:74 - getFeaturedHotel started
+2025-08-06 22:24:45 INFO  Tests:132 - getHomePageFeaturedHotel() started
+2025-08-06 22:24:45 INFO  HomePage:74 - getFeaturedHotel started
+2025-08-06 22:24:47 INFO  HomePage:80 - size of table: 40
+2025-08-06 22:24:47 INFO  HomePage:81 - selected blog number:31
