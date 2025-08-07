@@ -20,6 +20,7 @@ public class Tests extends TestMethods {
     String searchResultsURL = "http://www.kurs-selenium.pl/demo/hotels/search/united-arab-emirates/dubai/21-08-2025/29-08-2025/2/0";
     String userRegisterUrl = "http://www.kurs-selenium.pl/demo/register";
     String userLoginUrl = "http://www.kurs-selenium.pl/demo/login";
+    String blogPageUrl = "http://www.kurs-selenium.pl/demo/blog/listing/1";
     //Register/Login data
     private String name = "Dawid";
     private String surname = "Bryk";
@@ -171,6 +172,35 @@ public class Tests extends TestMethods {
         homePage.getSpecialOffer();
 
         logger.info("getHomePageSpecialOffer() completed");
+    }
+
+    //Blog Page Tests
+    @Test
+    public void getLatestsPost(){
+        driver.get(blogPageUrl);
+        BlogPage blogPage = new BlogPage(driver);
+        blogPage.getLatestPost();
+    }
+
+    @Test
+    public void getSearch(){
+        driver.get(blogPageUrl);
+        BlogPage blogPage = new BlogPage(driver);
+        blogPage.getSearch();
+    }
+
+    @Test
+    public void getCategory(){
+        driver.get(blogPageUrl);
+        BlogPage blogPage = new BlogPage(driver);
+        blogPage.getCategories();
+    }
+
+    @Test
+    public void getPopularPost(){
+        driver.get(blogPageUrl);
+        BlogPage blogPage = new BlogPage(driver);
+        blogPage.getPopularPost();
     }
 
 

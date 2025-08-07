@@ -281,3 +281,38 @@
 2025-08-06 22:24:45 INFO  HomePage:74 - getFeaturedHotel started
 2025-08-06 22:24:47 INFO  HomePage:80 - size of table: 40
 2025-08-06 22:24:47 INFO  HomePage:81 - selected blog number:31
+2025-08-07 22:22:33 INFO  BlogPage:65 - getLatestPost() started
+2025-08-07 22:22:33 INFO  BlogPage:69 - selected page: 3
+2025-08-07 22:22:33 INFO  BlogPage:72 - page 3 clicked
+2025-08-07 22:24:46 INFO  BlogPage:65 - getLatestPost() started
+2025-08-07 22:24:46 INFO  BlogPage:69 - selected page: 0
+2025-08-07 22:24:46 INFO  BlogPage:72 - page 0 clicked
+2025-08-07 22:24:46 INFO  BlogPage:76 - selected page: 0
+2025-08-07 22:24:47 INFO  BlogPage:82 - page 0 clicked
+2025-08-07 22:24:47 INFO  BlogPage:84 - getLatestPost() ended
+2025-08-07 22:25:40 INFO  BlogPage:65 - getLatestPost() started
+2025-08-07 22:25:40 INFO  BlogPage:69 - selected page: 0
+2025-08-07 22:25:40 INFO  BlogPage:72 - page 0 clicked
+2025-08-07 22:25:40 INFO  BlogPage:76 - selected page: 4
+2025-08-07 22:25:40 INFO  BlogPage:78 - 16/12/2014
+2025-08-07 22:25:40 INFO  BlogPage:79 - It isn't supposed to rain in Ko Samui this time of year.  I did a little research about Ko Samui before…
+2025-08-07 22:25:41 INFO  BlogPage:83 - page 4 clicked
+2025-08-07 22:25:41 INFO  BlogPage:85 - getLatestPost() ended
+2025-08-07 22:26:40 INFO  BlogPage:65 - getLatestPost() started
+2025-08-07 22:26:40 INFO  BlogPage:69 - selected page: 2
+2025-08-07 22:26:41 INFO  BlogPage:72 - page 2 clicked
+2025-08-07 22:26:41 INFO  BlogPage:76 - selected post: 4
+2025-08-07 22:26:41 INFO  BlogPage:78 - 16/12/2014
+2025-08-07 22:26:41 INFO  BlogPage:79 - Listen to two different forms of fusion concerts that make up this year's One World Many Musics, the annual…
+2025-08-07 22:26:42 INFO  BlogPage:83 - post 4 clicked
+2025-08-07 22:26:42 INFO  BlogPage:85 - getLatestPost() ended
+2025-08-07 22:50:30 INFO  BlogPage:92 - getSearch() started
+2025-08-07 22:50:31 INFO  BlogPage:95 - getSearch() started
+2025-08-07 22:50:40 INFO  BlogPage:99 - getCategories() started
+2025-08-07 22:50:40 INFO  BlogPage:102 - selected category num: 1
+2025-08-07 22:50:40 INFO  BlogPage:105 - getCategories() completed
+2025-08-07 22:51:05 INFO  BlogPage:109 - getPopularPost() started
+2025-08-07 22:51:05 INFO  BlogPage:112 - selected post num: 1
+2025-08-07 22:51:05 INFO  BlogPage:113 - Fiercely Independent…
+2025-08-07 22:51:06 INFO  BlogPage:114 - 16/12/2014
+2025-08-07 22:51:06 INFO  BlogPage:117 - getPopularPost() completed
